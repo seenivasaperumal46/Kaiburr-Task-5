@@ -73,3 +73,28 @@ This project performs text classification on the [Consumer Complaint Dataset](ht
    
    ```
 3. ### Run all cells in order, starting from data loading.
+
+## 📸 Screenshots
+
+
+### 🔹 Data Preprocessing
+![Data Preprocessing](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-2.png)
+
+### 🔹 Class Distribution Visualization
+![Class Distribution Visualization](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-4.png)
+
+### 🔹  Text Cleaning
+![Text Cleaning](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-5.png)
+
+### 🔹 Model Training
+![Model Training](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-6.png)
+
+### 🔹 Model Evaluation
+![Model Evaluation](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-8.png)
+
+### 🔹 Final Result & Output
+We predict a sample complaint:
+
+"There is a hard inquiry I didn’t authorize."
+
+![Final Result & Output](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-1.png)

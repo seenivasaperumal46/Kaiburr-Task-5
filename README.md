@@ -36,20 +36,16 @@ This project is part of the **Kaiburr Assessment** Task 5, which involves perfor
 
 ---
 
-## 📊 Screenshot Highlights
+## 🧪 Tasks Covered
 
-| # | Subtask | Screenshot |
-|--|---------|------------|
-| 1️⃣ | Data Loading | `screenshot1.png` |
-| 2️⃣ | Filtering + Labeling | `screenshot2.png` |
-| 3️⃣ | Class Distribution Plot | `screenshot3.png` |
-| 4️⃣ | Text Cleaning | `screenshot4.png` |
-| 5️⃣ | Model Training | `screenshot5.png` |
-| 6️⃣ | Classification Report | `screenshot6.png` |
-| 7️⃣ | Model Comparison | `screenshot7.png` |
-| 8️⃣ | Final Prediction Samples | `screenshot8.png` |
-
-Place all screenshots in a folder named `screenshots/`.
+| Task Step | Description |
+|-----------|-------------|
+| 1️⃣ EDA & Feature Engineering | Data cleaned, filtered, and mapped to labels |
+| 2️⃣ Text Pre-processing | Lowercasing, tokenization, vocabulary building |
+| 3️⃣ Model Selection | Custom BiLSTM model with embeddings (PyTorch) |
+| 4️⃣ Model Comparison | (optional) Can be extended with classical models |
+| 5️⃣ Model Evaluation | Accuracy and F1-score computed |
+| 6️⃣ Prediction | Final prediction logic (to be demoed on sample text) |
 
 ---
 
@@ -57,4 +53,35 @@ Place all screenshots in a folder named `screenshots/`.
 
 1. Install dependencies:
    ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn nltk
+   pip install pandas numpy matplotlib seaborn scikit-learn nltk### 🔹 Data Preprocessing
+   ```
+2. ### Launch the notebook:
+   ```
+   jupyter notebook code.ipynb
+   
+   ```
+3. ### Run all cells in order, starting from data loading.
+
+---
+## 📸 Screenshots
+   
+![Data Preprocessing](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-2.png)
+
+### 🔹 Class Distribution Visualization
+![Class Distribution Visualization](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-4.png)
+
+### 🔹  Text Cleaning
+![Text Cleaning](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-5.png)
+
+### 🔹 Model Training
+![Model Training](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-6.png)
+
+### 🔹 Model Evaluation
+![Model Evaluation](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-8.png)
+
+### 🔹 Final Result & Output
+We predict a sample complaint:
+
+"There is a hard inquiry I didn’t authorize."
+
+![Final Result & Output](https://github.com/seenivasaperumal46/Kaiburr-Task-5/blob/400f8c63eb3386b7c35ff077cc569e368c865fdd/image-1.png)
